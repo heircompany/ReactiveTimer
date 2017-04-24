@@ -5,7 +5,7 @@ React = require("react"),
 const About = (props) => {
     return (
         <div>
-            <h2 className="text-center page-title">About This App</h2>
+            <h2 className="page-title">About This App</h2>
             <h4 className="text-center">Development Tools:</h4>
             <ol>
                 <li>

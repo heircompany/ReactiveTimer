@@ -47,6 +47,20 @@ module.exports = {
                 },
                 test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            sourceMap: true,
+                            includePaths: [
+                                path.resolve(__dirname, 'node_modules/foundation-sites/scss'),
+                            ]
+                        }
+                    }
+                ]
             }
         ]
     },

@@ -1,10 +1,14 @@
+// VARIABLES
 @import "base/variables";
+
+// foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
+// COMPONENTS
 @import "components/nav";
 @import "components/logo";
 @import "components/clock";
 @import "components/controls";
-
-.page-title {
-    color: $title-color;
-    margin: $space-large 0;
-}
+@import "components/page-title";

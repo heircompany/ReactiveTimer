@@ -8,7 +8,6 @@ const Main = (props) => {
             <Nav/>
             <div className="row">
                 <div className="columns medium-6 large-4 small-centered">
-                    <h1 className="text-center page-title">Reactive Timer</h1>
                     {props.children}
                 </div>
             </div>

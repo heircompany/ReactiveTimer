@@ -10,7 +10,6 @@ Clock = require("Clock"),
 Countdown = require("Countdown");
 
 // load foundation
-require("style-loader!css-loader!foundation-sites/dist/css/foundation.min.css")
 $(document).foundation();
 
 // include css
