@@ -17,11 +17,10 @@ require("style-loader!css-loader!sass-loader!applicationStyles");
 
 ReactDOM.render(
     <Router history={hashHistory}>
-        <IndexRoute component={Nav}/>
         <Route path="/" component={Main}>
-        <Route path="timer" component={Timer}/>
         <Route path="countdown" component={Countdown}/>
         <Route path="about" component={About}/>
+        <IndexRoute component={Timer}/>
         </Route>
     </Router>,
     document.getElementById("app")
