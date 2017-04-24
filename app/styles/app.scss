@@ -1,0 +1,8 @@
+@import "base/variables";
+@import "components/nav";
+@import "components/logo";
+
+.page-title {
+    color: $title-color;
+    margin: $space-large 0;
+}
