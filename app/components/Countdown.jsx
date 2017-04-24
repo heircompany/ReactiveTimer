@@ -1,12 +1,13 @@
 const
 React = require("react"),
-{Link} = require("react-router");
+{Link} = require("react-router"),
+Clock = require("Clock");
 
 const Countdown = React.createClass({
     render: function () {
         return (
             <div>
-                <h2 className="text-center page-title">Countdown</h2>
+                <Clock totalSeconds={129}/>
             </div>
         );
     }

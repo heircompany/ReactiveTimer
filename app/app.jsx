@@ -6,6 +6,7 @@ Main = require("Main"),
 Nav = require("Nav"),
 About = require("About"),
 Timer = require("Timer"),
+Clock = require("Clock"),
 Countdown = require("Countdown");
 
 // load foundation

@@ -31,7 +31,8 @@ module.exports = {
             Nav: path.resolve(__dirname, "app/components/Nav.jsx"),
             About: path.resolve(__dirname, "app/components/About.jsx"),
             Timer: path.resolve(__dirname, "app/components/Timer.jsx"),
-            Countdown: path.resolve(__dirname, "app/components/Countdown.jsx")
+            Countdown: path.resolve(__dirname, "app/components/Countdown.jsx"),
+            Clock: path.resolve(__dirname, "app/components/Clock.jsx")
         },
         extensions: [" ", ".js", ".jsx"]
     },
